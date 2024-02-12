@@ -1,0 +1,179 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  nav#navbar {
+    background-color: #004d99;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+
+  }
+  
+  nav#navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  nav#navbar div#authLinks a {
+    padding: 5px 10px;
+    background-color: #0073e6;
+    border-radius: 5px;
+  }
+  
+  nav#navbar div#authLinks a:hover {
+    background-color: #005cb8;
+  }
+  form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #004d99;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0073e6;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .product-details, .related-products {
+    margin-bottom: 20px;
+  }
+  
+  #favoriteBtn {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .related-products img {
+    width: 100px;
+    height: auto;
+    margin: 5px;
+    cursor: pointer;
+  }
+  .favorites-sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 220px;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: -2px 0 4px rgba(0,0,0,0.1);
+    overflow-y: auto;
+}
+
+.favorites-sidebar h3 {
+    margin-top: 0;
+}
+
+#favoritesList {
+    list-style: none;
+    padding: 0;
+}
+
+.favorite-item {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.favorite-item button {
+    cursor: pointer;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.product-detail, .related-products {
+    margin: 20px;
+    padding: 20px;
+}
+
+.product-detail img, .related-products img {
+    width: 100%; 
+    height: auto;
+    max-width: 200px;
+}
+
+
+
+.related-products {
+    display: flex;
+    overflow-x: auto;
+}
+
+.related-products img {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  padding: 20px; 
+}
+
+.product-item {
+  border: 1px solid #ddd; 
+  padding: 10px; 
+  text-align: center; 
+}
+
+.product-img {
+  width: 100%; 
+  height: auto; 
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination button {
+    margin: 0 5px;
+}
+.product-gallery {
+  margin-right: 250px; 
+}

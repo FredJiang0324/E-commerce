@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce Home</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="navi.html">Log in/out page</a>
+    </nav>
+
+    <div class="container">
+      <aside class="filter-panel">
+        <h4>Filters</h4>
+        <div id="brandFilters">
+          <h5>Brands</h5>
+        </div>
+        <div id="typeFilters">
+          <h5>Types</h5>
+        </div>
+        <button id="applyFilters">Apply Filters</button>
+      </aside>
+      <main class="product-gallery" class="product-grid">
+        <div id="productGallery" class="products"></div>
+        <div class="pagination">
+          <button id="prevPage" disabled>Previous</button>
+          <button id="nextPage">Next</button>
+        </div>
+        <aside id="favoritesSidebar" class="favorites-sidebar">
+          <h3>Favorites</h3>
+          <ul id="favoritesList"></ul>
+        </aside>
+      </main>
+    </div>
+
+    <script src="../js/home.js"></script>
+  </body>
+</html>
